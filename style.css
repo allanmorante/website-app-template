@@ -1,0 +1,51 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.site-content{
+    flex: 1;
+    padding-bottom: 50px;
+}
+
+.top-footer{
+    background-color: #D00602;
+    padding: 20px;
+    color: #fff;
+
+}
+
+.top-footer a{
+    color: #fff;
+    font-size: 25px;
+}
+.top-footer p{
+    margin: 0;
+    display: block;
+}
+
+
+.bottom-footer{
+    background-color: #200000;
+    padding: 50px;
+    color: #fff;
+}
+
+.bottom-footer hr{
+    background-color: #D00602;
+    width: 30%;
+    display: block;
+    text-align: left;
+}
+
+.copyright-footer{
+    padding: 10px;
+    background-color: #180000;
+    color: #fff;
+
+}
+.copyright-footer p{
+    margin: 0;
+}
+
