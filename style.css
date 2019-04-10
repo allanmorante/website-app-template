@@ -4,9 +4,25 @@ body{
     padding: 0;
 }
 
+nav{
+    border-bottom: solid 1px lightgrey;
+    height: 56px;
+}
+.navbar{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.show{
+    background-color: #fff;
+    width: 100%;
+    border: solid 1px lightgrey;
+    padding-left: 20px;
+}
+
+
 .site-content{
     flex: 1;
-    padding-bottom: 50px;
+    padding: 50px 0;
 }
 
 .top-footer{
@@ -46,6 +62,25 @@ body{
 .bottom-footer-item{
     margin: 35px 0;
 }
+
+.nav-item:hover{
+    border-bottom: solid 2px #D00602;
+}
+.nav-item{
+    line-height: 2;
+    height: auto;
+}
+
+.nav-item a{
+    color: #000;
+}
+.nav-item:last-child:hover{
+    border-bottom: inherit;
+}
+.nav-item button:hover{
+    color: #fff;
+}
+
 .contact-item p{
     display: inline;
 }
@@ -65,5 +100,11 @@ body{
 }
 .copyright-footer p{
     margin: 0;
+}
+
+.btn-bct{
+    color: #ffffff;
+    background-color: #D00602;
+    border-radius: inherit;
 }
 
